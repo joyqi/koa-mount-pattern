@@ -12,10 +12,10 @@ npm install koa-mount-pattern
 
 ```js
 const Koa = require('koa');
-const mount = require('koa-mount-pattern');
+const { mountPattern } = require('koa-mount-pattern');
 
 const app = new Koa();
-app.use(mount('/api/:version', async (ctx, next) => {
+app.use(mountPattern('/api/:version', async (ctx, next) => {
   // do something
   await next();
 }));
