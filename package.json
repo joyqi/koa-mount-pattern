@@ -1,20 +1,18 @@
 {
-  "name": "typescript-module-template",
+  "name": "koa-mount-pattern",
   "keywords": [],
-  "author": "",
+  "author": "joyqi",
   "license": "",
-  "description": "",
+  "description": "Mount other Koa middleware to a path. Accept both the regex path and pattern style path.",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/joyqi/koa-mount-pattern.git"
   },
-  "homepage": "",
+  "homepage": "https://github.com/joyqi/koa-mount-pattern#readme",
   "bugs": {
-    "url": ""
+    "url": "https://github.com/joyqi/koa-mount-pattern/issues"
   },
-
   "version": "latest",
-
   "exports": {
     ".": {
       "types": "./lib/types/index.d.ts",
