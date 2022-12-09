@@ -14,7 +14,7 @@ type MatchResult = {
 }
 
 // Mount a middleware function to a path
-export default function mountPattern(path: string | RegExp, middleware: Middleware) {
+export = function(path: string | RegExp, middleware: Middleware) {
     const match = matcher(path);
 
     return async (ctx: Context, next: Next) => {
