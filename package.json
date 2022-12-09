@@ -34,11 +34,19 @@
     "test": "npx mocha"
   },
   "devDependencies": {
+    "@types/koa": "^2.13.5",
     "@types/mocha": "latest",
     "assert": "latest",
     "mocha": "latest",
     "ts-node": "latest",
     "tsc-esm-fix": "latest",
     "typescript": "latest"
+  },
+  "dependencies": {
+    "path-to-regexp": "^6.2.1"
+  },
+  "engines": {
+    "node": "^16.0.0 || ^18.0.0",
+    "pnpm": "^7.0.0"
   }
 }
